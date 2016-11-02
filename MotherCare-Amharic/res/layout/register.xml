@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/register_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Register"
+        android:textColor="@color/setdatepicker"
+        android:textSize="@dimen/setdatepicker_textsize"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/register_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/register_age"
+        android:layout_alignRight="@+id/register_textview"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/Register_Phone"
+        android:inputType="phone"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/register_button_pick_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/register_weight"
+        android:layout_marginTop="21dp"
+        android:text="@string/pick_button" />
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_age"
+        android:layout_alignLeft="@+id/register_textview"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/Register_Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/register_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_phone"
+        android:layout_alignLeft="@+id/register_name"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:hint="@string/Register_Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/register_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/register_phone"
+        android:layout_below="@+id/register_phone"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/Register_Weight"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/register_pregnancydate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/register_button_pick_date"
+        android:layout_alignBottom="@+id/register_button_pick_date"
+        android:layout_alignRight="@+id/register_phone"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:hint="@string/pick_date" />
+
+    <Button
+        android:id="@+id/web_site_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Web_Site" 
+        android:textStyle="bold|italic"/>
+
+</RelativeLayout>

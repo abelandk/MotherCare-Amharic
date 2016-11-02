@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mother" >
+
+    <Button
+        android:id="@+id/web_site_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Web_Site"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/what_not_to_do_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/web_site_a"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/a_what_not_to_do"
+        android:textColor="@color/home_button"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/mother_info_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/a_mother_info"
+        android:textColor="@color/home_button"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/what_to_do_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mother_info_a"
+        android:layout_alignBottom="@+id/mother_info_a"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/a_what_to_do"
+        android:textColor="@color/home_button"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/what_to_expect_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/what_not_to_do_a"
+        android:layout_alignBottom="@+id/what_not_to_do_a"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/a_what_to_expect"
+        android:textColor="@color/home_button"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/alarm_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/web_site_a"
+        android:layout_alignParentRight="true"
+        android:text="@string/Alarm"
+        android:textColor="@color/home_button"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/measure_contraction_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mother_info_a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/e_measure_contraction"
+ />
+
+</RelativeLayout>

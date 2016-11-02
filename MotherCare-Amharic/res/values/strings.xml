@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MotherCare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_notes">No Notes</string>
+    <string name="pick_date">Pick Pregnancy Date</string>
+    <string name="TextOne">No Notes</string>
+    <string name="Pregnancy_Date">Set Pregnacy Date</string>
+    <string name="pick_button">Pick Date</string>
+    <string name="save_menu"> Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="back_menu">Back</string>
+    <string name="emergency_button">EMEREGNCY</string>
+    <string name="Register">Mother Information</string>
+    <string name="Register_Name">Enter Your Name</string>
+    <string name="Register_Age">Enter Your Age</string>
+    <string name="Register_Phone">Enter Your Phone Number</string>
+    <string name="Register_Weight">Enter Your Weight(in Kg)</string>
+    <string name="Web_Site">www.mothercare.com</string>
+    <string name="Save_Button">Save</string>
+    <string name="Text_Name">Name</string>
+    <string name="Text_Age">Age</string>
+    <string name="Text_Telephone">Telephone</string>
+    <string name="Text_Weight">Weight</string>
+    <string name="Text_Pregnancy_Date">Pregnancy Date</string>
+    <string name="Enter_Emergency_Contact">Enter Emergency Contact</string>
+    <string name="Emergency_Phone">Enter Emergency Contact</string>
+    
+    
+    <!--  MEASURE CONTRACTION .XML TEXT FILES-->
+      
+    <string name="start_text">START</string>
+    <string name="stop_text">STOP</string>
+    <string name="duration_text">DURATION</string>
+    <string name="stopwatch_text">00:00:000</string>
+    
+    <!--  MEASURE CONTRACTION .XML BUTTON FILES-->
+    
+    <string name="start_button">START</string>
+    <string name="stop_button">STOP</string>
+       
+    <!--  MEASURE CONTRACTION DETAIL .XML TEXT FILES-->
+      
+    <string name="detail_stop_watch">DETAIL VIEW OF CONTRACTION</string>
+    
+     <!--  HOME PAGE .XML BUTTON FILES-->
+     
+     <string name="Mother_Info">Mother Info</string>
+     <string name="What_To_Do">What To DO</string>
+     <string name="What_Not_To_Do">What Not DO</string>
+     <string name="What_To_Expect">What To Expect</string>
+     <string name="Alarm">Alarm</string>
+     <string name="contraction">Measure Contraction</string>
+     
+     <!--  SELECT LAANGUAGE .XML list FILES-->
+    
+     <string-array name="list_language">
+         <item name="Amharic">Amharic</item>
+         <item name="English">English</item>
+     </string-array>
+     
+     <string name="select_language">SELECT LANGUAGE</string>
+     
+    
+   <!--  SELECT LANGUAGE_NEXT .XML MENU FILES-->
+    
+     <string name="next">Next</string> 
+     
+   <!--  SELECT activity main_a .XML text FILES-->
+        <string name="no_notes_a">ባዶ ገጽ</string> 
+        <string name="Web_Site_a">www.mothercare.com</string>
+	    <string name="Save_Button_a">Save</string>
+	    <string name="Text_Name_a">ሰም</string>
+	    <string name="Text_Age_a">እድሜ</string>
+	    <string name="Text_Telephone_a">ሰልክ</string>
+	    <string name="Text_Weight_a">ክብደት</string>
+	    <string name="Text_Pregnancy_Date_a">የእርግዝና ቀን</string>
+	    <string name="Enter_Emergency_Contact_a">የአደጋ ጊዜ ሰልክ</string>
+	    <string name="Emergency_Phone_a">የአደጋ ጊዜ ሰልክ ያሰገቡ</string>
+	    
+   <!--SELECT waht to do_a .XML text FILES-->    
+	    <string name="TextOne_a">ባዶ ገጽ</string>
+    
+     
+    	    
+   <!--SELECT gotodetail .XML Menu FILES-->    
+	    <string name="detail">Detail View</string> 
+</resources>

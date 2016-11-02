@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="setdatepicker_textsize">25dp</dimen>
+    <dimen name="setdatepicker_padding_top">100dp</dimen>
+    <dimen name="setdatepicker_padding_left">60dp</dimen>
+    <dimen name="week_display_textsize">15dp</dimen>
+    <dimen name="text_display_textsize">20dp</dimen>
+    <dimen name="week_display_padding_top">10dp</dimen>
+    <dimen name="week_display_padding_left">15dp</dimen>
+    <dimen name="week_display_padding_right">20dp</dimen>
+    <dimen name="text_display_padding_top">3dp</dimen>
+    <dimen name="text_display_padding_left">25dp</dimen>
+    <dimen name="text_display_padding_right">20dp</dimen>
+    <dimen name="enter_emergency_text">16dp</dimen>
+    
+    
+    
+    <!--  MEASURE CONTRACTION .XML TEXT FILES-->
+    <dimen name="stopwatch_text_size">60dp</dimen>
+    <dimen name="start_text_size">17dp</dimen>
+
+</resources>

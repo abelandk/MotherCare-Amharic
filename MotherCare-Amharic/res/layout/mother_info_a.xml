@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/text_name_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/Text_Name_a" />
+
+    <TextView
+        android:id="@+id/text_age_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_name_a"
+        android:layout_below="@+id/text_name_a"
+        android:layout_marginTop="18dp"
+        android:hint="@string/Text_Age_a" />
+
+    <TextView
+        android:id="@+id/text_weight_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_telephone_a"
+        android:layout_below="@+id/text_telephone_a"
+        android:layout_marginTop="19dp"
+        android:hint="@string/Text_Weight_a" />
+
+    <TextView
+        android:id="@+id/text_pregnancy_date_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_weight_a"
+        android:layout_below="@+id/text_weight_a"
+        android:layout_marginTop="19dp"
+        android:hint="@string/Text_Pregnancy_Date_a" />
+
+    <EditText
+        android:id="@+id/editText1_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_pregnancy_date_a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/Emergency_Phone_a" />
+
+    <EditText
+        android:id="@+id/editText2_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1_a"
+        android:layout_below="@+id/editText1_a"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/Emergency_Phone_a" />
+
+    <EditText
+        android:id="@+id/editText3_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2_a"
+        android:layout_below="@+id/editText2_a"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/Emergency_Phone_a" />
+
+    <TextView
+        android:id="@+id/text_telephone_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_age_a"
+        android:layout_below="@+id/text_age_a"
+        android:layout_marginTop="22dp"
+        android:hint="@string/Text_Telephone_a" />
+
+    <TextView
+        android:id="@+id/textView6_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1_a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="@string/Enter_Emergency_Contact_a"
+        android:textColor="@color/home_button"
+        android:textSize="@dimen/enter_emergency_text"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button1_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Web_Site_a"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

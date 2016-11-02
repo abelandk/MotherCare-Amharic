@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/contraction_stop_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/contraction_start_text"
+        android:layout_alignBottom="@+id/contraction_start_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/stop_text"
+        android:textSize="@dimen/start_text_size"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contraction_duration_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/contraction_stop_text"
+        android:layout_alignBottom="@+id/contraction_stop_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:text="@string/duration_text"
+        android:textSize="@dimen/start_text_size"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/contraction_stop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/stop_button"
+        android:textColor="@color/buttons"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contraction_stopwatch_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/stopwatch_text"
+        android:textSize="@dimen/stopwatch_text_size"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/contraction_start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/start_button"
+        android:textColor="@color/buttons"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contraction_start_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contraction_stopwatch_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:text="@string/start_text"
+        android:textSize="@dimen/start_text_size"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contraction_duration_static_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/contraction_stop_static_text"
+        android:layout_alignBottom="@+id/contraction_stop_static_text"
+        android:layout_alignRight="@+id/contraction_duration_text"
+        android:text="@string/duration_text"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contraction_stop_static_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/contraction_start_static_text"
+        android:layout_alignBottom="@+id/contraction_start_static_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/stop_text"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contraction_start_static_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contraction_start_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/start_text"
+        android:textStyle="bold|italic" />
+
+<!--     <TextView
+        android:id="@+id/contraction_start_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contraction_start_text"
+        android:layout_below="@+id/contraction_start_text"
+        android:layout_marginTop="15dp"
+        android:text="@string/start_text" />
+
+    <TextView
+        android:id="@+id/contraction_stop_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contraction_start_list_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/stop_text" />
+
+    <TextView
+        android:id="@+id/contraction_duration_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/contraction_stop_list_text"
+        android:layout_alignBottom="@+id/contraction_stop_list_text"
+        android:layout_alignRight="@+id/contraction_stopwatch_text"
+        android:text="@string/duration_text" /> -->
+
+</RelativeLayout>

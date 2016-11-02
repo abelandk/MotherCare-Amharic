@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+   <resources xmlns:android="http://schemas.android.com/apk/res/android">
+   <color name="setdatepicker">#1E90FF</color>
+   <color name="continue_button_background">#F8F8FF</color>
+   <color name="continue_button">#1E90FF</color>
+   <color name="emergency_button">#00F</color>
+   <color name="home_button">#00F</color>
+   <color name="emergency_button_background">#FFF</color>
+   <color name="text_display_color">#000</color>
+   
+    <!--  MEASURE CONTRACTION .XML BUTTON FILES-->
+     
+     <color name="buttons">#00F</color>
+    
+  </resources>
+

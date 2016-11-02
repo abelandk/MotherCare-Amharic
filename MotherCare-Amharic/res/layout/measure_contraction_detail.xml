@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/contraction_deatil_duration_static_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/contraction_deatil_static_between_text"
+        android:layout_alignBottom="@+id/contraction_deatil_static_between_text"
+        android:layout_alignRight="@+id/detail_text"
+        android:text="@string/duration_text"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contraction_deatil_duration_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contraction_deatil_duration_static_text"
+        android:layout_below="@+id/contraction_deatil_duration_static_text"
+        android:layout_marginTop="17dp"
+        android:text="@string/duration_text" />
+
+    <TextView
+        android:id="@+id/contraction_deatil_between_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/contraction_deatil_duration_list_text"
+        android:layout_alignBottom="@+id/contraction_deatil_duration_list_text"
+        android:layout_alignLeft="@+id/contraction_deatil_static_between_text"
+        android:text="@string/start_text" />
+
+    <TextView
+        android:id="@+id/detail_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/detail_stop_watch"
+        android:textColor="@color/continue_button"
+        android:textSize="@dimen/start_text_size"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/contraction_deatil_static_between_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detail_text"
+        android:layout_below="@+id/detail_text"
+        android:layout_marginTop="20dp"
+        android:text="@string/start_text"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
